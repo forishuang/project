@@ -3,7 +3,6 @@ import connect
 mydb = connect.connect_mysql()
 mycursor = mydb.cursor()
 
-
 import plotly.express as px
 import pandas as pd
 import streamlit as st
